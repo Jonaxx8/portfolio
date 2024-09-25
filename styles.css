@@ -264,6 +264,7 @@ main {
 }
 
 .about__desc {
+  text-align: center;
   font-size: 1rem;
   max-width: 600px;
 }
@@ -279,6 +280,27 @@ main {
 
 .about .btn--outline {
   margin-right: 1em;
+}
+
+.about__social {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.experience__grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(18em, 1fr)); */
+  grid-gap: 2em;
+  margin-top: 3em;
+}
+
+.experience__item{
+  margin-top: 2em;
+}
+.experience__company {
+  font-weight: 500;
+  color: var(--clr-primary);
 }
 
 .projects__grid {
@@ -409,5 +431,37 @@ main {
 
   .scroll-container {
     display: none;
+  }
+
+  .about__desc{
+    font-size: 0.9rem;
+    text-align: left;
+  }
+
+  .about__role{
+    font-size: 1rem;
+
+  }
+  .section__title{
+    margin-bottom: 1rem;
+  }
+
+  .experience__grid {
+    margin-top: -1.8rem;
+  }
+  .section__title {
+    text-align: left;
+  }
+
+  .projects__grid {
+    grid-template-columns: 1fr;
+  }
+  .about__contact{
+    margin: 0 auto;
+    margin-top: 2em;
+  }
+  .about__social{
+    margin: 0 auto;
+    margin-top: 1em;
   }
 }
