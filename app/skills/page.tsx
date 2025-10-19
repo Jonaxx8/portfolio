@@ -68,7 +68,7 @@ export default function SkillsPage() {
             Database
           </h2>
           <div className="flex flex-wrap gap-2">
-            {['MySQL', 'MongoDB', 'Sequelize ORM', 'Redis'].map((skill) => (
+            {['MySQL','PostgreSQL', 'MongoDB', 'Redis', 'Supabase'].map((skill) => (
               <span
                 key={skill}
                 className="px-3 py-2 text-sm rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-700"
@@ -85,24 +85,7 @@ export default function SkillsPage() {
             Development & Operations
           </h2>
           <div className="flex flex-wrap gap-2">
-            {['Agile', 'Git', 'Azure', 'Version Control', 'Linux', 'Jira'].map((skill) => (
-              <span
-                key={skill}
-                className="px-3 py-2 text-sm rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-700"
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Soft Skills */}
-        <div className="space-y-3">
-          <h2 className="text-lg font-semibold tracking-tight text-neutral-800 dark:text-neutral-200">
-            Soft Skills
-          </h2>
-          <div className="flex flex-wrap gap-2">
-            {['Problem Solving', 'English Fluency', 'Team Collaboration', 'Attention to Detail'].map((skill) => (
+            {['Agile', 'Git', 'Azure', 'GCP', 'Version Control', 'Linux', 'Jira'].map((skill) => (
               <span
                 key={skill}
                 className="px-3 py-2 text-sm rounded-lg bg-neutral-100 dark:bg-neutral-800 text-neutral-800 dark:text-neutral-200 border border-neutral-200 dark:border-neutral-700"

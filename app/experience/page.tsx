@@ -17,7 +17,7 @@ export default function ExperiencePage() {
             <div className="flex items-start justify-between">
               <div>
                 <h2 className="text-xl font-semibold tracking-tight">SDE 1</h2>
-                <p className="text-neutral-600 dark:text-neutral-400">Periskope</p>
+                <p className="text-neutral-600 dark:text-neutral-400"><a href="https://periskope.app/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">Periskope</a></p>
               </div>
               <span className="text-sm text-neutral-600 dark:text-neutral-400">Jun 2025 - Present</span>
             </div>
@@ -69,19 +69,12 @@ export default function ExperiencePage() {
             <div className="flex items-start justify-between">
               <div>
                 <h2 className="text-xl font-semibold tracking-tight">Software Developer</h2>
-                <p className="text-neutral-600 dark:text-neutral-400">Mitt Arv</p>
+                <p className="text-neutral-600 dark:text-neutral-400"><a href="https://mittarv.com/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600">Mitt Arv</a></p>
               </div>
               <span className="text-sm text-neutral-600 dark:text-neutral-400">Feb 2024 - May 2025</span>
             </div>
           </div>
           <ul className="space-y-3 text-neutral-800 dark:text-neutral-200 ml-4">
-            <li className="flex gap-2">
-              <span className="text-neutral-400 flex-shrink-0">•</span>
-              <span>
-                Promoted from Software Development Engineer Intern to Software Developer within 6 months, 
-                based on strong performance and contributions.
-              </span>
-            </li>
             <li className="flex gap-2">
               <span className="text-neutral-400 flex-shrink-0">•</span>
               <span>
@@ -117,13 +110,6 @@ export default function ExperiencePage() {
                 Led a team in revamping the company's website using React.js, implementing engaging 
                 animations to enhance user experience. Managed complex state efficiently with Redux 
                 Toolkit and ensured full responsiveness for a seamless experience across devices.
-              </span>
-            </li>
-            <li className="flex gap-2">
-              <span className="text-neutral-400 flex-shrink-0">•</span>
-              <span>
-                Implemented Google Analytics to track user behavior and acquisition metrics, while 
-                optimizing the company website's SEO to improve visibility and search rankings.
               </span>
             </li>
           </ul>
